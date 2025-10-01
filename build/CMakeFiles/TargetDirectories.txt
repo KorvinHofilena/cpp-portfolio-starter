@@ -1,5 +1,0 @@
-C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/portfolio_hello.dir
-C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/test_vec2.dir
-C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/RUN_TESTS.dir
-C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/ZERO_CHECK.dir
