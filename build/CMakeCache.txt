@@ -97,16 +97,16 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=portfolio_hello
+CMAKE_PROJECT_NAME:STATIC=cpp_portfolio_starter
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=0.1.0
+CMAKE_PROJECT_VERSION:STATIC=0.2.0
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=1
+CMAKE_PROJECT_VERSION_MINOR:STATIC=2
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_PATCH:STATIC=0
@@ -184,6 +184,15 @@ CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 // during the make.  This is useful for debugging only. With Visual
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
+
+//Value Computed by CMake
+cpp_portfolio_starter_BINARY_DIR:STATIC=C:/Users/Redux/cpp-portfolio-starter/build
+
+//Value Computed by CMake
+cpp_portfolio_starter_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+cpp_portfolio_starter_SOURCE_DIR:STATIC=C:/Users/Redux/cpp-portfolio-starter
 
 //Value Computed by CMake
 portfolio_hello_BINARY_DIR:STATIC=C:/Users/Redux/cpp-portfolio-starter/build
