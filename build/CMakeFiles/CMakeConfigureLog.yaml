@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.23+b0019275e for .NET Framework
-      Build started 9/30/2025 6:23:52 PM.
+      Build started 10/1/2025 4:18:57 PM.
       
       Project "C:\\Users\\Redux\\cpp-portfolio-starter\\build\\CMakeFiles\\3.31.6-msvc6\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.03
+      Time Elapsed 00:00:00.57
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -72,8 +72,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/CMakeScratch/TryCompile-yjwexp"
-      binary: "C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/CMakeScratch/TryCompile-yjwexp"
+      source: "C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/CMakeScratch/TryCompile-c3ove5"
+      binary: "C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/CMakeScratch/TryCompile-c3ove5"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -83,40 +83,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/CMakeScratch/TryCompile-yjwexp'
+        Change Dir: 'C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/CMakeScratch/TryCompile-c3ove5'
         
-        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_94f09.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eb73d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.23+b0019275e for .NET Framework
-        Build started 9/30/2025 6:23:54 PM.
+        Build started 10/1/2025 4:18:58 PM.
         
-        Project "C:\\Users\\Redux\\cpp-portfolio-starter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yjwexp\\cmTC_94f09.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\Redux\\cpp-portfolio-starter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c3ove5\\cmTC_eb73d.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_94f09.dir\\Debug\\".
+          Creating directory "cmTC_eb73d.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\Redux\\cpp-portfolio-starter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yjwexp\\Debug\\".
-          Creating directory "cmTC_94f09.dir\\Debug\\cmTC_94f09.tlog\\".
+          Creating directory "C:\\Users\\Redux\\cpp-portfolio-starter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c3ove5\\Debug\\".
+          Creating directory "cmTC_eb73d.dir\\Debug\\cmTC_eb73d.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_94f09.dir\\Debug\\cmTC_94f09.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_94f09.dir\\Debug\\cmTC_94f09.tlog\\unsuccessfulbuild".
+          Creating "cmTC_eb73d.dir\\Debug\\cmTC_eb73d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_eb73d.dir\\Debug\\cmTC_eb73d.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94f09.dir\\Debug\\\\" /Fd"cmTC_94f09.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb73d.dir\\Debug\\\\" /Fd"cmTC_eb73d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35217 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_94f09.dir\\Debug\\\\" /Fd"cmTC_94f09.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_eb73d.dir\\Debug\\\\" /Fd"cmTC_eb73d.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Redux\\cpp-portfolio-starter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yjwexp\\Debug\\cmTC_94f09.exe" /INCREMENTAL /ILK:"cmTC_94f09.dir\\Debug\\cmTC_94f09.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/CMakeScratch/TryCompile-yjwexp/Debug/cmTC_94f09.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/CMakeScratch/TryCompile-yjwexp/Debug/cmTC_94f09.lib" /MACHINE:X64  /machine:x64 cmTC_94f09.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_94f09.vcxproj -> C:\\Users\\Redux\\cpp-portfolio-starter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yjwexp\\Debug\\cmTC_94f09.exe
+          C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\Redux\\cpp-portfolio-starter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c3ove5\\Debug\\cmTC_eb73d.exe" /INCREMENTAL /ILK:"cmTC_eb73d.dir\\Debug\\cmTC_eb73d.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/CMakeScratch/TryCompile-c3ove5/Debug/cmTC_eb73d.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/CMakeScratch/TryCompile-c3ove5/Debug/cmTC_eb73d.lib" /MACHINE:X64  /machine:x64 cmTC_eb73d.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_eb73d.vcxproj -> C:\\Users\\Redux\\cpp-portfolio-starter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c3ove5\\Debug\\cmTC_eb73d.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_94f09.dir\\Debug\\cmTC_94f09.tlog\\unsuccessfulbuild".
-          Touching "cmTC_94f09.dir\\Debug\\cmTC_94f09.tlog\\cmTC_94f09.lastbuildstate".
-        Done Building Project "C:\\Users\\Redux\\cpp-portfolio-starter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yjwexp\\cmTC_94f09.vcxproj" (default targets).
+          Deleting file "cmTC_eb73d.dir\\Debug\\cmTC_eb73d.tlog\\unsuccessfulbuild".
+          Touching "cmTC_eb73d.dir\\Debug\\cmTC_eb73d.tlog\\cmTC_eb73d.lastbuildstate".
+        Done Building Project "C:\\Users\\Redux\\cpp-portfolio-starter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-c3ove5\\cmTC_eb73d.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.61
+        Time Elapsed 00:00:00.38
         
       exitCode: 0
   -

@@ -1,0 +1,18 @@
+Start testing: Oct 01 16:24 Pacific Daylight Time
+----------------------------------------------------------
+1/1 Testing: vec2_tests
+1/1 Test: vec2_tests
+Command: "C:/Users/Redux/cpp-portfolio-starter/build/Debug/test_vec2.exe"
+Directory: C:/Users/Redux/cpp-portfolio-starter/build
+"vec2_tests" start time: Oct 01 16:24 Pacific Daylight Time
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.94 sec
+----------------------------------------------------------
+Test Passed.
+"vec2_tests" end time: Oct 01 16:24 Pacific Daylight Time
+"vec2_tests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Oct 01 16:24 Pacific Daylight Time

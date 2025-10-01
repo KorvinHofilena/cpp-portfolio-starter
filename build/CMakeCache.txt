@@ -62,7 +62,7 @@ CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=TRUE
 CMAKE_FIND_PACKAGE_REDIRECTS_DIR:STATIC=C:/Users/Redux/cpp-portfolio-starter/build/CMakeFiles/pkgRedirects
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files/portfolio_hello
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files/cpp_portfolio_starter
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=C:/Program Files (x86)/Microsoft Visual Studio/2022/BuildTools/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe
@@ -88,7 +88,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELEASE:STRING=/INCREMENTAL:NO
 CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO:STRING=/debug /INCREMENTAL
 
 //Path to a program.
-CMAKE_MT:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/mt.exe
+CMAKE_MT:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/mt.exe
 
 //Value Computed by CMake
 CMAKE_PROJECT_DESCRIPTION:STATIC=
@@ -115,7 +115,7 @@ CMAKE_PROJECT_VERSION_PATCH:STATIC=0
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
 
 //RC compiler
-CMAKE_RC_COMPILER:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x86/rc.exe
+CMAKE_RC_COMPILER:FILEPATH=C:/Program Files (x86)/Windows Kits/10/bin/10.0.26100.0/x64/rc.exe
 
 //Flags for Windows Resource Compiler during all build types.
 CMAKE_RC_FLAGS:STRING=-DWIN32
@@ -193,15 +193,6 @@ cpp_portfolio_starter_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 cpp_portfolio_starter_SOURCE_DIR:STATIC=C:/Users/Redux/cpp-portfolio-starter
-
-//Value Computed by CMake
-portfolio_hello_BINARY_DIR:STATIC=C:/Users/Redux/cpp-portfolio-starter/build
-
-//Value Computed by CMake
-portfolio_hello_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-portfolio_hello_SOURCE_DIR:STATIC=C:/Users/Redux/cpp-portfolio-starter
 
 
 ########################
