@@ -1,0 +1,10 @@
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+*.sln
+*.vcxproj
+*.user
+*.obj
+*.pdb
+*.exe
+*.log

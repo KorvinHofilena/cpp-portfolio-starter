@@ -16,11 +16,22 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
+      - name: Clean build cache
+        run: cmake -E remove_directory build
+
+      - name: Show environment
+        run: |
+          cmake --version
+          echo "Runner OS: ${{ runner.os }}"
+          ls -la || dir
+
       - name: Configure CMake
         run: cmake -S . -B build -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
 
+      # Build
       - name: Build
         run: cmake --build build --config ${{ matrix.build_type }}
 
+      # Test
       - name: Run tests
         run: ctest --test-dir build -C ${{ matrix.build_type }} --output-on-failure
