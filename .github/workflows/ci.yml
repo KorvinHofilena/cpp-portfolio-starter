@@ -19,19 +19,25 @@ jobs:
       - name: Clean build cache
         run: cmake -E remove_directory build
 
-      - name: Show environment
+      - name: Show environment (Linux/macOS)
+        if: runner.os != 'Windows'
         run: |
           cmake --version
           echo "Runner OS: ${{ runner.os }}"
-          ls -la || dir
+          ls -la
+
+      - name: Show environment (Windows)
+        if: runner.os == 'Windows'
+        run: |
+          cmake --version
+          echo "Runner OS: ${{ runner.os }}"
+          dir
 
       - name: Configure CMake
         run: cmake -S . -B build -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
 
-      # Build
       - name: Build
         run: cmake --build build --config ${{ matrix.build_type }}
 
-      # Test
       - name: Run tests
         run: ctest --test-dir build -C ${{ matrix.build_type }} --output-on-failure
